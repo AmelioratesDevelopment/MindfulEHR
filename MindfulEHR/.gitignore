@@ -1,0 +1,114 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files.
+.vscode/
+.vscode/*
+
+## Ignore Visual Studio temporary files, build results, and
+## user-specific files.
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# Auto-generated files
+Generated_Code/
+
+# User-specific files (Visual Studio Code)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+msbuild.log
+*.build/
+Build/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core 2, .NET Core 3, .NET 5+
+**/bin/
+**/obj/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VIM files
+[.]sw[a-p]
+[.]s[a-w][a-z]
+[.][.]sw[a-z]
+[.]w[a-z][0-9a-z]
+
+# Ignore macOS hidden files
+.DS_Store
+
+# Ignore Windows hidden files
+Thumbs.db
+Desktop.ini
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore package lock file
+package-lock.json
+yarn.lock
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore coverage files
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore environment variable files
+.env
+
+# Ignore compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore deployment files
+*.deploy.cmd
+*.deploy.sh
+*.deploy.bash
+
+# Ignore Python virtual environments
+env/
+venv/
