@@ -14,7 +14,7 @@
         public string Phone { get; set; }
         public string Password { get; set; }
         public DateTime LastLogin { get; set; }
-        public string IpOfLastLogin { get; set; }
+        public string ?IpOfLastLogin { get; set; }
         public DateTime CreatedAt { get; set; }
         public Guid CreatedBy { get; set; }
         public DateTime UpdatedAt { get; set; }

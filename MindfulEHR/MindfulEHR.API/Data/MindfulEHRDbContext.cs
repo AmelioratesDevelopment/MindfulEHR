@@ -9,7 +9,6 @@ namespace MindfulEHR.API.Data
         {
 
         }
-
         public DbSet<PatientChart> PatientCharts { get; set; }
         public DbSet<PatientInsurance> PatientInsurances { get; set; }
         public DbSet<PatientParents> PatientParents { get; set; }
